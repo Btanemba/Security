@@ -12,7 +12,8 @@
         "laravel/fortify": "^1.25",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
-        "laravel/ui": "^4.6"
+        "laravel/ui": "^4.6",
+        "webpatser/laravel-countries": "^1.5"
     },
     "require-dev": {
         "backpack/generators": "^4.0",

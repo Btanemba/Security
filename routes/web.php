@@ -18,3 +18,6 @@ Route::middleware(['admin.only'])->group(function () {
     // Define your admin panel routes here
 });
 
+use App\Http\Controllers\UniversityController;
+
+Route::post('universities', [UniversityController::class, 'store'])->name('universities.store');
